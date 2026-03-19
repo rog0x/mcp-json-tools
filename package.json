@@ -1,0 +1,35 @@
+{
+  "name": "@rog0x/mcp-json-tools",
+  "version": "1.0.0",
+  "description": "MCP server providing JSON and data manipulation tools for AI agents",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-json-tools": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "json",
+    "tools",
+    "ai",
+    "data-manipulation"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "ajv": "^8.17.1",
+    "json-diff": "^1.0.6",
+    "csv-parse": "^5.6.0",
+    "yaml": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/json-diff": "^1.0.3",
+    "@types/node": "^22.15.2",
+    "typescript": "^5.8.3"
+  }
+}
