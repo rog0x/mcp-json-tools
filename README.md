@@ -1,3 +1,5 @@
+[![MCP Server](https://glama.ai/mcp/servers/rog0x/mcp-json-tools/badges/score.svg)](https://glama.ai/mcp/servers/rog0x/mcp-json-tools)
+
 # mcp-json-tools
 
 An MCP (Model Context Protocol) server that provides JSON and data manipulation tools for AI agents. Designed for use with Claude Code, Claude Desktop, and any MCP-compatible client.
